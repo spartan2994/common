@@ -2,6 +2,17 @@
   "name": "spartan2994/common",
   "description": "Common library for Spartan",
   "type": "library",
+  "autoload": {
+        "psr-4": {
+            "Caliente\\Common\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Caliente Development Team",
+            "email": "devs@caliente.mx"
+        }
+    ],
   "require": {
     "guzzlehttp/guzzle": "^7.0",
     "illuminate/support": "^8.83|^v9.11",
