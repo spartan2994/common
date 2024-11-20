@@ -1,0 +1,8 @@
+{
+  "name": "spartan2994/common",
+  "description": "Common library for Spartan",
+  "type": "library",
+  "require": {
+    "php": "^8.1"
+  }
+}
